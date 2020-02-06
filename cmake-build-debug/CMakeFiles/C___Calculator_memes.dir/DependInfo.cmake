@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/alexc/Documents/GitHub/C-Calculator-squares-squareroots/main.cpp" "C:/Users/alexc/Documents/GitHub/C-Calculator-squares-squareroots/cmake-build-debug/CMakeFiles/C___Calculator_memes.dir/main.cpp.obj"
+  "C:/Users/alexc/Documents/GitHub/C-Calculator-squares-squareroots/tester.cpp" "C:/Users/alexc/Documents/GitHub/C-Calculator-squares-squareroots/cmake-build-debug/CMakeFiles/C___Calculator_memes.dir/tester.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

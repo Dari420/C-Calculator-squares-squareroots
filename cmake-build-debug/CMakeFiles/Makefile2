@@ -73,12 +73,12 @@ preinstall:
 CMakeFiles/C___Calculator_memes.dir/all:
 	$(MAKE) -f CMakeFiles\C___Calculator_memes.dir\build.make CMakeFiles/C___Calculator_memes.dir/depend
 	$(MAKE) -f CMakeFiles\C___Calculator_memes.dir\build.make CMakeFiles/C___Calculator_memes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\alexc\Documents\GitHub\C-Calculator-squares-squareroots\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C___Calculator_memes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\alexc\Documents\GitHub\C-Calculator-squares-squareroots\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target C___Calculator_memes"
 .PHONY : CMakeFiles/C___Calculator_memes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C___Calculator_memes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alexc\Documents\GitHub\C-Calculator-squares-squareroots\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alexc\Documents\GitHub\C-Calculator-squares-squareroots\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/C___Calculator_memes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alexc\Documents\GitHub\C-Calculator-squares-squareroots\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/C___Calculator_memes.dir/rule

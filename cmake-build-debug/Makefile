@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\C___Calculator_memes.dir\build.make CMakeFiles/C___Calculator_memes.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tester.obj: tester.cpp.obj
+
+.PHONY : tester.obj
+
+# target to build an object file
+tester.cpp.obj:
+	$(MAKE) -f CMakeFiles\C___Calculator_memes.dir\build.make CMakeFiles/C___Calculator_memes.dir/tester.cpp.obj
+.PHONY : tester.cpp.obj
+
+tester.i: tester.cpp.i
+
+.PHONY : tester.i
+
+# target to preprocess a source file
+tester.cpp.i:
+	$(MAKE) -f CMakeFiles\C___Calculator_memes.dir\build.make CMakeFiles/C___Calculator_memes.dir/tester.cpp.i
+.PHONY : tester.cpp.i
+
+tester.s: tester.cpp.s
+
+.PHONY : tester.s
+
+# target to generate assembly for a file
+tester.cpp.s:
+	$(MAKE) -f CMakeFiles\C___Calculator_memes.dir\build.make CMakeFiles/C___Calculator_memes.dir/tester.cpp.s
+.PHONY : tester.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tester.obj
+	@echo ... tester.i
+	@echo ... tester.s
 .PHONY : help
 
 

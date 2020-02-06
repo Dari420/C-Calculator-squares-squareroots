@@ -3,3 +3,5 @@
 
 CMakeFiles/C___Calculator_memes.dir/main.cpp.obj: ../main.cpp
 
+CMakeFiles/C___Calculator_memes.dir/tester.cpp.obj: ../tester.cpp
+

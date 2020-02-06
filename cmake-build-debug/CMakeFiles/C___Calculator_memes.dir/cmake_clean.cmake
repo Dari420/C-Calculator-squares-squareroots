@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/C___Calculator_memes.dir/main.cpp.obj"
+  "CMakeFiles/C___Calculator_memes.dir/tester.cpp.obj"
   "C___Calculator_memes.exe"
   "C___Calculator_memes.exe.manifest"
   "C___Calculator_memes.pdb"

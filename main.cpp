@@ -1,39 +1,49 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <unistd.h>
 using namespace std;
 
 int square(){
     cin.clear();
     float userinput;
     float square;
-    while (true) {
+    while (true){
+        cin.clear();
         cout << ("enter number:\n");
+        cin.sync();
         cin >> (userinput);
-        if (!cin.fail()) {
-            square = userinput * userinput;
-            cout << (square);
-            cout << ("\n");
-            return 0;
-        }
-        else {
+        if (!cin.fail()){
+                square = userinput * userinput;
+                cout << (square);
+                cout << ("\n");
+                return 0;
+            }
+        else{
             cout << ("invalid entry!\n");
-            break;
         }
     }
-    return 0;
 }
 
 int squareroot(){
     cin.clear();
     float userinput;
     float squareroot;
-    cout << ("enter number:\n");
-    cin >> (userinput);
-    squareroot = sqrt(userinput);
-    cout << (squareroot);
-    cout << ("\n");
-    return 0;
+    while (true){
+        cin.clear();
+        cout << ("enter number:\n");
+        cin.sync();
+        cin >> (userinput);
+        if (!cin.fail()){
+            squareroot = sqrt(userinput);
+            cout << (squareroot);
+            cout << ("\n");
+            return 0;
+        }
+        else{
+            cout << ("invalid entry!\n");
+        }
+    }
 }
 
 int calculatorChoice(){
@@ -76,6 +86,7 @@ int askAgain(){
             }
             else if (AgainOrNot == no){
                 cout << ("closing calculator");
+                sleep(1);
                 exit(0);
             }
         }
@@ -86,9 +97,8 @@ int askAgain(){
 }
 
 int main() {
-    while(true){
+    while (true){
         calculatorChoice();
         askAgain();
     }
-    return 0;
 }

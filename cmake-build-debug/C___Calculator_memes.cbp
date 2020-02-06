@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/alexc/Documents/GitHub/C-Calculator-squares-squareroots/main.cpp">
 			<Option target="C___Calculator_memes"/>
 		</Unit>
+		<Unit filename="C:/Users/alexc/Documents/GitHub/C-Calculator-squares-squareroots/tester.cpp">
+			<Option target="C___Calculator_memes"/>
+		</Unit>
 		<Unit filename="C:/Users/alexc/Documents/GitHub/C-Calculator-squares-squareroots/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
