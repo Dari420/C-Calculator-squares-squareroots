@@ -142,10 +142,10 @@ int square(){
         cin.sync();
         cin >> (userinput);
         if (!cin.fail()){
-                square = userinput * userinput;
-                cout << (square);
-                cout << ("\n");
-                return 0;
+            square = userinput * userinput;
+            cout << (square);
+            cout << ("\n");
+            return 0;
         }
         else {
             cout << ("Invalid entry! Not a number\n");
